@@ -27,8 +27,11 @@ Nevertheless, there are a few interesting aspects of this example:
 The following files are defined:
 
    robotmain.py         - High level script that controls everything
+   
    robotlex.py          - ROBOT tokenizer
+   
    robotgrammar.py      - ROBOT parser
+   
    robotinter.py        - ROBOT interpreter that runs parsed programs.
 
 In addition, a number of sample ROBOT programs (.bas suffix) are
