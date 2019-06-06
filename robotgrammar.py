@@ -84,19 +84,7 @@ def p_statement_bad(p):
 def p_statement_newline(p):
 	'''statement : NEWLINE'''
 	p[0] = None
-
-
-# DATA statement
-
-def p_command_data(p):
-	'''command : DATA variable_array'''
-	p[0] = ('DATA', p[2])
-
-
-def p_command_data_bad(p):
-	'''command : DATA error'''
-	p[0] = "MALFORMED NUMBER LIST IN DATA"
-
+	
 
 # PRINT statement
 
